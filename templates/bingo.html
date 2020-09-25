@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bingo Game</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<style>
+		.a{
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 20px;
+		}
+		input{
+			height: 25px;
+			width:25px;
+		}
+		td{
+			text-align: center;
+		}
+		.c{
+			text-align: center;
+			margin-top: 20px;
+		}
+		.b{
+			text-align: center;
+		}
+		h1{
+			background: rgb(200,0,0);
+			color:white;
+			font-size: 10vw;
+			margin-bottom: 0px;
+			margin-top: 0px;
+		}
+		h2
+		{
+			margin-bottom: 0px;
+			margin-top: 0px;
+			background: black;
+			color: white;
+			font-size: 3vw;
+		}
+		button{
+			font-size: 3vw;
+		}
+		.m{
+			font-size: 4vw;
+		}
+		.n{
+			background: green;
+			text-align: center;
+			margin-top: 20px;
+		}
+
+		
+	</style>
+</head>
+<body>
+	<div class="b">
+		<h1 >BINGO</h1>
+		<h2>Do you want to play with me ?</h2>
+	</div>
+
+	<table class="a">
+		<tr>
+			<th>B</th>
+			<th>I</th>
+			<th>N</th>
+			<th>G</th>
+			<th>O</th>
+		</tr>
+		<tr>
+			<td><input type="text" name=""></td>
+			<td><input type="text" name=""></td>
+			<td><input type="text" name=""></td>
+			<td><input type="text" name=""></td>
+			<td><input type="text" name=""></td>
+			
+		</tr>
+		<tr>
+			<td><input type="text" name=""></td>
+			<td><input type="text" name=""></td>
+			<td><input type="text" name=""></td>
+			<td><input type="text" name=""></td>
+			<td><input type="text" name=""></td>
+			
+		</tr>
+		<tr>
+			<td><input type="text" name=""></td>
+			<td><input type="text" name=""></td>
+			<td><input type="text" name=""></td>
+			<td><input type="text" name=""></td>
+			<td><input type="text" name=""></td>
+			
+		</tr>
+		<tr>
+			<td><input type="text" name=""></td>
+			<td><input type="text" name=""></td>
+			<td><input type="text" name=""></td>
+			<td><input type="text" name=""></td>
+			<td><input type="text" name=""></td>
+			
+		</tr>
+		<tr>
+			<td><input type="text" name=""></td>
+			<td><input type="text" name=""></td>
+			<td><input type="text" name=""></td>
+			<td><input type="text" name=""></td>
+			<td><input type="text" name=""></td>
+			
+		</tr>
+		
+	</table>
+	<div class="c">
+	<button class="btn btn-primary">submit !</button>
+</div>
+<div class="n">
+	<button class="m btn btn-primary">Play Again !</button>
+</div>
+
+<script type="text/javascript" src="{{ url_for('static', filename='Js/bingo.js')}}"></script>
+</body>
+</html>
